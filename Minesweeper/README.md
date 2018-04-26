@@ -1,0 +1,2 @@
+# Minesweeper
+Simply minefield solver

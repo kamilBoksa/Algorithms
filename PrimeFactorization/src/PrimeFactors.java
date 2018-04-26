@@ -20,7 +20,7 @@ public class PrimeFactors {
     public void displayPrimeFactors(String arg) {
         System.out.println("Primefactors of "+ arg);
         for (Integer integer : getPrimeFactors(Integer.parseInt(arg))) {
-            System.out.println(integer);
+            System.out.print(integer + " ");
         }
     }
 }
